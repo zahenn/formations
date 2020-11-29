@@ -3,7 +3,12 @@
 
 
 
-
+@media screen and (min-width:900px){
+#header9-f{display: none}
+}
+@media screen and (max-width:900px){
+  #header1-0{display: none;}
+}
 body {
   font-family: Jost;
 }
@@ -690,6 +695,21 @@ a {
 }
 .cid-shD2oAgBTe {
   background-image: url("../../../assets/images/component-24.png");
+}
+.cid-shINbrBewW {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-shINbrBewW .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-shINbrBewW .image-wrap img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
 }
 .cid-shD7xOS5HG {
   padding-top: 6rem;
